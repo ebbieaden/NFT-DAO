@@ -54,9 +54,10 @@ async function main() {
 
   
   
-// Async Sleep function
-function sleep(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
+  // Async Sleep function
+  function sleep(ms) {
+    return new Promise((resolve) => setTimeout(resolve, ms));
+  }
 }
 
 main().catch((error) => {
